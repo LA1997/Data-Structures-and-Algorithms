@@ -1,0 +1,18 @@
+import java.util.Stack;
+
+public class slidingWindow {
+
+	public static int[] slidingWindowMax(int arr[],int k) {
+		
+		int[] nge = new int[arr.length];
+		Stack<Integer> stck = new Stack<>();
+		
+		int[] res = new int[arr.length-k+1];
+		return res;
+	}
+	public static void main(String[] args) {
+
+		
+	}
+
+}

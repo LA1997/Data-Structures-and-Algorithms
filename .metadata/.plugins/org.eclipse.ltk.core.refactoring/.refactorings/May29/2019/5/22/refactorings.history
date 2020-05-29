@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Prim&apos; to &apos;MST&apos;&#x0A;- Original project: &apos;May29&apos;&#x0A;- Original element: &apos;Prim&apos;&#x0A;- Renamed element: &apos;MST&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Prim&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Prim.java[Prim" matchStrategy="1" name="MST" qualified="false" references="true" similarDeclarations="false" stamp="1559138943029" textual="false" version="1.0"/>
+</session>

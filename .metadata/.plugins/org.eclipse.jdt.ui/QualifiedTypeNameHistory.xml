@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="FireReach2.FHelper"/>
+    <fullyQualifiedTypeName name="GraphQues.THelper"/>
+    <fullyQualifiedTypeName name="GraphQues.CHelper"/>
+    <fullyQualifiedTypeName name="MinFarthest.CHelper"/>
+    <fullyQualifiedTypeName name="sun.awt.image.ImageWatched.Link"/>
+    <fullyQualifiedTypeName name="GraphQues.BHelper"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="Dijkstra.DHelper"/>
+    <fullyQualifiedTypeName name="MST.Kedge"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
+    <fullyQualifiedTypeName name="KnightsTour"/>
+    <fullyQualifiedTypeName name="FloydWarshall.FHelper"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.String"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="BellmanFord.Kedge"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.time.Clock"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="MergeKSortedLists.Helper"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="MedianPQTest.MedianPQ"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="StudentMarksComparator.StudentPQ"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="StudentMarksComparator"/>
+    <fullyQualifiedTypeName name="MyPriorityQueue"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>

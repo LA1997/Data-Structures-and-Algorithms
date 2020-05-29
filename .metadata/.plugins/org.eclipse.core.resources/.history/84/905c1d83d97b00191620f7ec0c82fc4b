@@ -1,0 +1,57 @@
+import java.util.Stack;
+
+public class MaxArea {
+
+	public static int[] nse_right(int[] arr) {
+		
+		int n = arr.length;
+		int[] res = new int[n];
+		Stack<Integer> stck = new Stack<Integer>();
+		res[n-1] = n;
+		stck.push(n-1);
+		
+		for(int i=n-2;i>=0;i--) {
+			
+			while(stck.size()>0 && arr[i]<=arr[stck.peek()]) {
+				stck.pop();
+			}
+			res[i] = (stck.size()>0) ? stck.peek() : arr.length;
+			stck.push(i);
+		}
+		for(int i=0;i<res.length;i++) {
+			System.out.print(res[i]+" ");
+		}
+		System.out.println();
+		return res;
+	}
+	public static int[] nse_left(int[] arr) {
+		
+		int n = arr.length;
+		int[] res = new int[n];
+		Stack<Integer> stck = new Stack<Integer>();
+		res[0] = -1;
+		stck.push(arr[0]);
+		
+		for(int i=0;i<n;i++) {
+			
+			while(stck.size()>0 && arr[i]<stck.peek()) {
+				stck.pop();
+			}
+			res[i] = (stck.size()>0) ? stck.peek() : -1;
+			stck.push(arr[i]);
+		}
+		for(int i=0;i<res.length;i++) {
+			System.out.print(res[i]+" ");
+		}
+		System.out.println();
+		return res;
+		
+	}
+	public static void main(String[] args) {
+		int arr1[] = {6,2,4,8,5,3,2,4,6,7};
+		nse_left(arr1);
+		nse_right(arr1);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class OverlappingIntervals {
+
+	public static class Interval implements Comparable<Interval>{
+		
+		public int start;
+		public int end;
+		public Interval(int start,int end) {
+			this.start = start;
+			this.end = end;
+		}
+		public int compareTo(Interval o) {
+			return (this.start - o.start);
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

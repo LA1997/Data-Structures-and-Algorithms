@@ -1,0 +1,27 @@
+
+public class FindCeleb {
+
+	public static int findCeleb(boolean[][] arr) {
+		
+		int left=0,right=arr.length-1;
+		int i=-1;
+		while(left<right) {
+			if(arr[left][right] == true) {
+				left++;
+			}
+			else {
+				right--;
+			}
+		}
+		if(left == right) {
+			i = left;
+		}
+		return i;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

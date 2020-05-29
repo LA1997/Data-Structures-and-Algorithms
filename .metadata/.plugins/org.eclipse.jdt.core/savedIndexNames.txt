@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/home/loki/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+936761087.index
+3607117793.index
+3496868856.index
+2684817271.index
+1046715092.index
+4230835234.index
+646308851.index
